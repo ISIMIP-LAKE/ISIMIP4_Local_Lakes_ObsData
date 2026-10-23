@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite this repository and the data providers' references (docs/PROVIDERS.md)."
+title: "ISIMIP4 Local Lakes: observed water temperature and bathymetry"
+type: dataset
+authors:
+  - name: "ISIMIP lake sector"
+  - family-names: "Mercado-Bettín"
+    given-names: "Daniel"
+    affiliation: "Spanish National Research Council (CSIC), Centre for Advanced Studies of Blanes (CEAB)"
+repository-code: "https://github.com/ISIMIP-LAKE/ISIMIP4_Local_Lakes_ObsData"
+url: "https://www.isimip.org"
+keywords:
+  - ISIMIP
+  - lakes
+  - water temperature
+  - hypsometry
+  - bathymetry
+  - lake models

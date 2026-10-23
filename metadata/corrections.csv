@@ -1,0 +1,220 @@
+lake,file,rule,n_values,detail
+Allequash,Allequash/Allequash_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -1.00 C
+Allequash,"(daily, flag only)",QC flag 'unstable' set (value kept),2,
+Allequash,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2017.csv,"missing-value code removed (-9999, -999, -99)",1250,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2018.csv,"missing-value code removed (-9999, -999, -99)",6656,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2019.csv,"missing-value code removed (-9999, -999, -99)",1651,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2020.csv,"missing-value code removed (-9999, -999, -99)",13115,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2021.csv,"missing-value code removed (-9999, -999, -99)",369,
+Alqueva,Alqueva/Alqueva_temp_subdaily_2022.csv,"missing-value code removed (-9999, -999, -99)",4719,
+Alqueva,"(daily, flag only)",QC flag 'unstable' set (value kept),9,
+Annie,(daily merge),same day and depth in several files of the same source: averaged,266,
+Annie,"(daily, flag only)",QC flag 'unstable' set (value kept),1574,
+Annie,"(daily, flag only)",QC flag 'outlier' set (value kept),59,
+Argyle,"(daily, flag only)",QC flag 'unstable' set (value kept),19,
+BigMuskellunge,BigMuskellunge/BigMuskellunge_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2,min -1.00 C
+BurleyGriffin,"(daily, flag only)",QC flag 'unstable' set (value kept),5,
+Crystal,Crystal/Crystal_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -1.30 C
+CrystalBog,CrystalBog/CrystalBog_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -1.50 C
+CrystalBog,CrystalBog/CrystalBog_temp_subdaily_2010.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),35,min -0.87 C
+CrystalBog,CrystalBog/CrystalBog_temp_subdaily_2011.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1662,min -5.78 C
+CrystalBog,CrystalBog/CrystalBog_temp_subdaily_2012.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),14,min -5.93 C
+CrystalBog,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),1133,"115 days; at common depths the sources differ by median 0.45, max 4.20 C"
+CrystalBog,(daily merge),same day and depth in several files of the same source: averaged,20,
+CrystalBog,"(daily, flag only)",QC flag 'unstable' set (value kept),216,
+Dickie,Dickie/Dickie_temp_daily.csv,several values at the same time and depth: averaged,4,2 groups
+Dickie,"(daily, flag only)",QC flag 'unstable' set (value kept),2,
+Eagle,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
+Eagle,"(daily, flag only)",QC flag 'outlier' set (value kept),10,
+Ekoln,(daily merge),same day and depth in several files of the same source: averaged,202,
+Ekoln,"(daily, flag only)",QC flag 'unstable' set (value kept),413,
+Ekoln,"(daily, flag only)",QC flag 'outlier' set (value kept),55,
+Erken,erken_watertemp_daily.csv,missing depth removed,634,
+Erken,erken_watertemp_daily.csv,depths given as negative numbers (height); sign flipped to depth below surface,267222,
+Erken,erken_watertemp_daily.csv,several values at the same time and depth: averaged,8886,4443 groups
+Erken,Erken/Erken_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2,min -0.99 C
+Erken,Erken/Erken_temp_daily.csv,several values at the same time and depth: averaged,9111,4553 groups
+Erken,Erken/Erken_temp_subdaily_1990.csv,"empty source file (header only), skipped",1,
+Erken,Erken/Erken_temp_subdaily_1993.csv,"empty source file (header only), skipped",1,
+Erken,Erken/Erken_temp_subdaily_1994.csv,"empty source file (header only), skipped",1,
+Erken,Erken/Erken_temp_subdaily_1995.csv,"empty source file (header only), skipped",1,
+Erken,Erken/Erken_temp_subdaily_1996.csv,"empty source file (header only), skipped",1,
+Erken,Erken/Erken_temp_subdaily_1997.csv,"empty source file (header only), skipped",1,
+Erken,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),212768,"8853 days; at common depths the sources differ by median 0.00, max 4.05 C"
+Erken,"(daily, flag only)",QC flag 'unstable' set (value kept),6,
+Erken,"(daily, flag only)",QC flag 'outlier' set (value kept),19,
+Erken,erken_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+EsthwaiteWater,(daily merge),same day and depth in several files of the same source: averaged,48,
+FallingCreek,"(daily, flag only)",QC flag 'unstable' set (value kept),4443,
+FallingCreek,"(daily, flag only)",QC flag 'outlier' set (value kept),328,
+Feeagh,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),59085,"4534 days; at common depths the sources differ by median 0.00, max 0.86 C"
+Feeagh,"(daily, flag only)",QC flag 'unstable' set (value kept),8,
+Feeagh,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Feeagh,feeagh_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file differs,1,"ISIMIP3 48 levels to 46.8 m, ISIMIP4 48 levels to 46.8112 m"
+Fish,"(daily, flag only)",QC flag 'unstable' set (value kept),6,
+Fish,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Harp,harp_watertemp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),10,min -0.99 C
+Harp,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),30925,"753 days; at common depths the sources differ by median 0.00, max 5.35 C"
+Harp,"(daily, flag only)",QC flag 'unstable' set (value kept),2,
+Harp,"(daily, flag only)",QC flag 'outlier' set (value kept),9,
+Kinneret,Kinneret/Kinneret_temp_daily.csv,several values at the same time and depth: averaged,2,1 groups
+Kinneret,"(daily, flag only)",QC flag 'unstable' set (value kept),3,
+Kinneret,"(daily, flag only)",QC flag 'outlier' set (value kept),2,
+Klicava,Klicava/Klicava_temp_daily.csv,several values at the same time and depth: averaged,16,8 groups
+Klicava,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
+Klicava,"(daily, flag only)",QC flag 'outlier' set (value kept),24,
+Kuivajarvi,Kuivajarvi/Kuivajarvi_temp_subdaily_2017.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),790,min -3.02 C
+Kuivajarvi,(daily merge),same day and depth in several files of the same source: averaged,128,
+Kuivajarvi,"(daily, flag only)",QC flag 'unstable' set (value kept),38,
+Kuivajarvi,"(daily, flag only)",QC flag 'outlier' set (value kept),2,
+Langtjern,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
+Langtjern,"(daily, flag only)",QC flag 'outlier' set (value kept),6,
+LowerLakeZurich,lower-zurich_watertemp_daily.csv,"missing temperature removed (empty, NA, NaN)",1,
+LowerLakeZurich,Zurich/Zurich_Temp.csv,"header lacked the DEPTH column (5 data columns, 4 names); columns re-assigned",22365,
+LowerLakeZurich,Zurich/Zurich_Temp.csv,"file of ISIMIP3 folder 'Zurich' assigned to LowerLakeZurich: the 'Zurich' folder holds Lower Lake Zurich data (CH-ZUR rows = the ISIMIP4 Lower Lake Zurich file, 1981-2022)",22365,
+LowerLakeZurich,Zurich/Zurich_Temp.csv,"missing temperature removed (empty, NA, NaN)",1,
+LowerLakeZurich,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),29291,"497 days; at common depths the sources differ by median 0.00, max 2.70 C"
+LowerLakeZurich,"(daily, flag only)",QC flag 'unstable' set (value kept),3,
+LowerLakeZurich,lower-zurich_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+Mendota,"(daily, flag only)",QC flag 'unstable' set (value kept),3,
+Monona,"(daily, flag only)",QC flag 'unstable' set (value kept),4,
+Monona,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Mozhaysk,Mozhaysk/Mozhaysk_temp_daily.csv,missing depth removed,1,
+Mozhaysk,Mozhaysk/Mozhaysk_temp_daily.csv,several values at the same time and depth: averaged,322,161 groups
+Mozhaysk,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),735,"105 days; at common depths the sources differ by median 0.24, max 6.80 C"
+Mozhaysk,"(daily, flag only)",QC flag 'unstable' set (value kept),17,
+MtBold,MtBold/MtBold_temp_subdaily_2009.csv,"empty source file (header only), skipped",1,
+MtBold,MtBold/MtBold_temp_subdaily_2010.csv,"empty source file (header only), skipped",1,
+MtBold,MtBold/MtBold_temp_subdaily_2011.csv,"empty source file (header only), skipped",1,
+MtBold,MtBold/MtBold_temp_subdaily_2012.csv,"empty source file (header only), skipped",1,
+MtBold,(daily merge),same day and depth in several files of the same source: averaged,216,
+MtBold,"(daily, flag only)",QC flag 'unstable' set (value kept),104,
+MtBold,"(daily, flag only)",QC flag 'outlier' set (value kept),423,
+Neuchatel,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
+NohipaloMustjarv,(daily merge),same day and depth in several files of the same source: averaged,16,
+NohipaloMustjarv,"(daily, flag only)",QC flag 'outlier' set (value kept),4,
+NohipaloValgejarv,(daily merge),same day and depth in several files of the same source: averaged,32,
+Rappbode,Rappbodep/Rappbodep_temp_subdaily_2015.csv,file of ISIMIP3 folder 'Rappbodep' assigned to Rappbode: profiles reach 48-79 m but the pre-dam is ~17 m deep; the 44 days of 2015 that are also in the Rappbode reservoir daily file are identical to it (max difference < 1e-8 C): main-reservoir data filed under the pre-dam,10174,
+Rappbode,Rappbodep/Rappbodep_temp_subdaily_2016.csv,file of ISIMIP3 folder 'Rappbodep' assigned to Rappbode: profiles reach 48-79 m but the pre-dam is ~17 m deep; the 44 days of 2015 that are also in the Rappbode reservoir daily file are identical to it (max difference < 1e-8 C): main-reservoir data filed under the pre-dam,24261,
+Rappbode,Rappbodep/Rappbodep_temp_subdaily_2017.csv,file of ISIMIP3 folder 'Rappbodep' assigned to Rappbode: profiles reach 48-79 m but the pre-dam is ~17 m deep; the 44 days of 2015 that are also in the Rappbode reservoir daily file are identical to it (max difference < 1e-8 C): main-reservoir data filed under the pre-dam,4271,
+Rappbode,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),9802,"46 days; at common depths the sources differ by median 0.00, max 0.15 C"
+Rappbode,"(daily, flag only)",QC flag 'outlier' set (value kept),16,
+Rimov,(daily merge),same day and depth in several files of the same source: averaged,126,
+Rimov,"(daily, flag only)",QC flag 'unstable' set (value kept),2269,
+Rimov,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Rotorua,Rotorua/Rotorua_temp_daily.csv,several values at the same time and depth: averaged,9328,4664 groups
+Rotorua,"(daily, flag only)",QC flag 'unstable' set (value kept),5,
+Rotorua,"(daily, flag only)",QC flag 'outlier' set (value kept),10,
+Sammamish,Sammamish/Sammamish_temp_subdaily_2000.csv,several values at the same time and depth: averaged,8,4 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2002.csv,several values at the same time and depth: averaged,8,4 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2003.csv,several values at the same time and depth: averaged,4,2 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2005.csv,several values at the same time and depth: averaged,2,1 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2006.csv,several values at the same time and depth: averaged,199060,49745 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2007.csv,several values at the same time and depth: averaged,229627,57387 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2008.csv,negative depth in a file of positive depths removed,1,
+Sammamish,Sammamish/Sammamish_temp_subdaily_2008.csv,several values at the same time and depth: averaged,2911,1442 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2009.csv,several values at the same time and depth: averaged,1413,706 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2010.csv,several values at the same time and depth: averaged,1323,661 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2011.csv,several values at the same time and depth: averaged,1374,687 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2012.csv,several values at the same time and depth: averaged,1222,610 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2013.csv,several values at the same time and depth: averaged,910,455 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2014.csv,several values at the same time and depth: averaged,1162,581 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2015.csv,several values at the same time and depth: averaged,44,22 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2016.csv,several values at the same time and depth: averaged,558,279 groups
+Sammamish,Sammamish/Sammamish_temp_subdaily_2017.csv,several values at the same time and depth: averaged,357,178 groups
+Sammamish,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),27561,"395 days; at common depths the sources differ by median 0.00, max 3.44 C"
+Sammamish,(daily merge),same day and depth in several files of the same source: averaged,48,
+Sammamish,"(daily, flag only)",QC flag 'unstable' set (value kept),17892,
+Sammamish,sammamish_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+Sau,Sau/Sau_temp_daily.csv,several values at the same time and depth: averaged,110,55 groups
+Sau,"(daily, flag only)",QC flag 'unstable' set (value kept),68,
+Sau,"(daily, flag only)",QC flag 'outlier' set (value kept),10,
+Sparkling,Sparkling/Sparkling_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -0.70 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_1999.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),278,min -4.66 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2000.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),496,min -3.89 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2002.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),221,min -1.94 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2003.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1544,min -3.09 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2005.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1114,min -3.87 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2006.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),71,min -1.89 C
+Sparkling,Sparkling/Sparkling_temp_subdaily_2014.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -1.85 C
+Sparkling,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),5056,"340 days; at common depths the sources differ by median 0.25, max 5.07 C"
+Sparkling,(daily merge),same day and depth in several files of the same source: averaged,228,
+Sparkling,"(daily, flag only)",QC flag 'unstable' set (value kept),110,
+Sparkling,"(daily, flag only)",QC flag 'outlier' set (value kept),9,
+Sunapee,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),14139,"1117 days; at common depths the sources differ by median 0.00, max 5.34 C"
+Sunapee,"(daily, flag only)",QC flag 'unstable' set (value kept),30,
+Sunapee,"(daily, flag only)",QC flag 'outlier' set (value kept),18,
+Tahoe,Tahoe/Tahoe_temp_daily.csv,several values at the same time and depth: averaged,936,128 groups
+Tahoe,"(daily, flag only)",QC flag 'unstable' set (value kept),81,
+Tahoe,"(daily, flag only)",QC flag 'outlier' set (value kept),2,
+Tarawera,Tarawera/Tarawera_temp_daily.csv,"date written as yymmdd (6 digits), read as 20yy-mm-dd",162,"160101, 160102"
+Tarawera,"(daily, flag only)",QC flag 'unstable' set (value kept),26,
+Tarawera,"(daily, flag only)",QC flag 'outlier' set (value kept),53,
+Toolik,"(daily, flag only)",QC flag 'unstable' set (value kept),6,
+Toolik,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Trout,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),2450,"111 days; at common depths the sources differ by median 0.26, max 15.20 C"
+Trout,"(daily, flag only)",QC flag 'unstable' set (value kept),770,
+Trout,"(daily, flag only)",QC flag 'outlier' set (value kept),376,
+TroutBog,TroutBog/TroutBog_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2,min -1.10 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2004.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),446,min -3.20 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2005.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2342,min -5.65 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2006.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),795,min -1.55 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2007.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),100,min -2.58 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2010.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),456,min -2.72 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2011.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2199,min -6.12 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2012.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1009,min -2.35 C
+TroutBog,TroutBog/TroutBog_temp_subdaily_2013.csv,"empty source file (header only), skipped",1,
+TroutBog,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),1426,"144 days; at common depths the sources differ by median 0.50, max 4.05 C"
+TroutBog,(daily merge),same day and depth in several files of the same source: averaged,76,
+TroutBog,"(daily, flag only)",QC flag 'outlier' set (value kept),3,
+TwoSisters,TwoSisters/TwoSisters_temp_daily.csv,several values at the same time and depth: averaged,2,1 groups
+TwoSisters,"(daily, flag only)",QC flag 'unstable' set (value kept),2,
+Vortsjarv,(daily merge),same day and depth in several files of the same source: averaged,16,
+Washington,Washington/washington_temp_daily.csv,several values at the same time and depth: averaged,182,91 groups
+Washington,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),12620,"475 days; at common depths the sources differ by median 0.00, max 2.80 C"
+Washington,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
+Washington,"(daily, flag only)",QC flag 'outlier' set (value kept),3,
+Washington,washington_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+Windermere,(daily merge),same day and depth in several files of the same source: averaged,48,
+Wingra,"(daily, flag only)",QC flag 'unstable' set (value kept),3,
+Zlutice,Zlutice/Zlutice_temp_daily.csv,several values at the same time and depth: averaged,6,3 groups
+Taihu,taihu_hypsometry.csv,hypsometry depth axis inverted (area grew with depth at every level); re-expressed as depth below the surface,11,source surface area 0 m2 at depth 0; after fix 2.32961e+09 m2 at 0 m
+Chao,Chao/Chao_temp_daily.csv,"missing temperature removed (empty, NA, NaN)",8,
+Hulun,Hulun/Hulun_temp_daily.csv,"missing temperature removed (empty, NA, NaN)",34,
+Rappbodep,Rappbodep/(moved files),ISIMIP3 files of this folder moved to another lake: profiles reach 48-79 m but the pre-dam is ~17 m deep; the 44 days of 2015 that are also in the Rappbode reservoir daily file are identical to it (max difference < 1e-8 C): main-reservoir data filed under the pre-dam,3,
+Rappbodep,Rappbodep/Rappbodep_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),3,min -9.60 C
+Rappbodep,Rappbodep/Rappbodep_temp_daily.csv,several values at the same time and depth: averaged,46,13 groups
+Hassel,Hassel/Hassel_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1,min -7.30 C
+Hassel,Hassel/Hassel_temp_daily.csv,several values at the same time and depth: averaged,200,95 groups
+Hassel,"(daily, flag only)",QC flag 'unstable' set (value kept),3,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2014.csv,"missing temperature removed (empty, NA, NaN)",1072,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2016.csv,"missing temperature removed (empty, NA, NaN)",1564,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2017.csv,"missing temperature removed (empty, NA, NaN)",20230,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2018.csv,"missing temperature removed (empty, NA, NaN)",16557,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2019.csv,"missing temperature removed (empty, NA, NaN)",21124,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2020.csv,"missing temperature removed (empty, NA, NaN)",4412,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2021.csv,"missing temperature removed (empty, NA, NaN)",7430,
+Arendsee,Arendsee/Arendsee_wtemp_subdaily_2022.csv,"missing temperature removed (empty, NA, NaN)",3794,
+Arendsee,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
+Scharmutzel,Scharmutzel/Scharmutzel_wtemp_subdaily_2019.csv,"missing temperature removed (empty, NA, NaN)",1477,
+Scharmutzel,Scharmutzel/Scharmutzel_wtemp_subdaily_2020.csv,"missing temperature removed (empty, NA, NaN)",7666,
+Scharmutzel,Scharmutzel/Scharmutzel_wtemp_subdaily_2021.csv,"missing temperature removed (empty, NA, NaN)",74,
+Bryrup,Bryrup/Bryrup_wtemp_daily.csv,several values at the same time and depth: averaged,42,21 groups
+Bryrup,"(daily, flag only)",QC flag 'unstable' set (value kept),15,
+Bryrup,"(daily, flag only)",QC flag 'outlier' set (value kept),4,
+Bosumtwi,Bosumtwi/Bosumtwi_temp_daily.csv,missing or unreadable date removed,67,
+Bosumtwi,Bosumtwi/Bosumtwi_temp_daily.csv,"missing temperature removed (empty, NA, NaN)",2,
+Bosumtwi,Bosumtwi/Bosumtwi_temp_daily.csv,lake-specific range 24.0-33.0 C: temperature = depth entries (depth typed in the temperature column),13,2018-09-21 17 m: 17.035; 2019-03-23 9 m: 9.045; 2019-09-10 7 m: 7.11; 2019-09-10 15 m: 15.033; 2020-01-24 36 m: 36.682; 2020-01-24 68 m: 68.828; 2020-01-24 69 m: 69.025; 2020-01-24 70 m: 69.255; 2020-04-18 0 m: 0.202; 2020-05-16 14 m: 14.008; 2020-07-18 0 m: 0.242; 2020-07-18 22 m: 22.092
+Bosumtwi,Bosumtwi/Bosumtwi_temp_daily.csv,several values at the same time and depth: averaged,142,71 groups
+Vendyurskoe,vendyurskoe_watertemp_daily.csv,several values at the same time and depth: averaged,2,1 groups
+Vendyurskoe,Vendyurskoe/Vendyurskoe_temp_daily.csv,several values at the same time and depth: averaged,2,1 groups
+Vendyurskoe,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),25721,"2621 days; at common depths the sources differ by median 0.00, max 0.00 C"
+Vendyurskoe,vendyurskoe_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+InreHarrsjon,inreharrsjon_watertemp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1909,min -11.76 C
+InreHarrsjon,"(daily, flag only)",QC flag 'unstable' set (value kept),69,
+InreHarrsjon,"(daily, flag only)",QC flag 'outlier' set (value kept),18,
+MellerstaHarrsjon,mellerstaharrsjon_watertemp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2594,min -20.16 C
+MellerstaHarrsjon,"(daily, flag only)",QC flag 'outlier' set (value kept),210,
+Villasjon,villasjon_watertemp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2824,min -22.10 C
+Villasjon,"(daily, flag only)",QC flag 'outlier' set (value kept),51,
