@@ -40,6 +40,10 @@ SENTINELS = [-9999.0, -999.0, -99.0]
 ISIMIP4_RESTRICTED = {"Bosumtwi"}
 # Lake-specific value ranges, checked by hand (docs/CORRECTIONS.md)
 LAKE_RANGE = {"Bosumtwi": (24.0, 33.0, "temperature = depth entries (depth typed in the temperature column)")}
+# Hypsometry area factors: Trout Lake's file gives 160,790,000 m2 at the surface, ten times the lake (NTL-LTER
+# 1,607.9 ha = 16,079,000 m2; sheet 15.65 km2); depths and shape are consistent (mean depth 15.1 vs 14.6 m)
+HYPSO_AREA_FACTOR = {"Trout": (0.1, "areas ten times too large (decimal shift: 160,790,000 m2 at the surface vs "
+                                    "16,079,000 m2 = 1,607.9 ha, NTL-LTER); all areas divided by 10")}
 # ISIMIP3 files filed under another lake (folder, file pattern) -> lake they belong to, with the evidence
 REASSIGN = [
     ("Zurich", "*Temp*.csv", "LowerLakeZurich",
@@ -340,6 +344,10 @@ def main(a):
         if hfile is None:
             hfile = next(iter(sorted(p for p in (i3 / lake).glob("*.csv") if re.search("hyps", p.name.lower()))), None)
         h, hd = hypsometry(hfile, lake)
+        if lake in HYPSO_AREA_FACTOR:
+            fac, why = HYPSO_AREA_FACTOR[lake]
+            h = h.assign(a=h.a * fac)
+            LOG.add(lake, hfile.name, "hypsometry: " + why, len(h))
         if hsrc.startswith("ISIMIP4"):
             h3f = next(iter(sorted(p for p in (i3 / lake).glob("*.csv") if re.search("hyps", p.name.lower()))), None) if (i3 / lake).exists() else None
             if h3f is not None:

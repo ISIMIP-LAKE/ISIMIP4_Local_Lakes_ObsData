@@ -26,12 +26,12 @@ files corrected, every correction documented, and per-lake figures and metadata.
   Washington (to 2023) and Vendyurskoe (to 2022).
 - **Errors corrected**, among them: an inverted hypsometry (Taihu); Rappbode reservoir profiles filed under the
   Rappbode pre-dam; Lower Lake Zurich data hidden in a "Zurich" folder with shifted columns; depths typed as
-  temperatures (Bosumtwi); loggers frozen into the ice (down to −22 °C); missing-value codes (−9999) left as
+  temperatures (Bosumtwi); Trout Lake hypsometry areas ten times too large; loggers frozen into the ice (down to −22 °C); missing-value codes (−9999) left as
   data; six-digit dates; empty files. Full list: [docs/CORRECTIONS.md](docs/CORRECTIONS.md).
 - **Quality flags** for values that look wrong but are kept (density inversions, outliers).
 - **Metadata** for every lake in one table, with the record, the sources used and checksums of every source file.
-- **Open problems listed** for the data providers: [docs/ISSUES.md](docs/ISSUES.md) (for example Trout Lake's
-  hypsometry areas are about ten times too large, and Windermere's hypsometry is of the South Basin only).
+- **Open problems listed** for the data providers: [docs/ISSUES.md](docs/ISSUES.md) (for example Windermere's
+  hypsometry is of the South Basin only, and several metadata areas disagree with the hypsometries).
 
 ## Quick start
 

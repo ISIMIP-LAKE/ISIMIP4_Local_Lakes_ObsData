@@ -8,7 +8,6 @@ take them into account, and tell the ISIMIP lake sector coordination if you can 
 
 | Lake | Hypsometry | Coordination sheet | Likely explanation |
 |---|---|---|---|
-| Trout Lake | surface area **160.8 km²**, deepest level 33 m | 15.65 km², 35.7 m | areas about **10 times too large** (decimal shift) |
 | Windermere | 6.7 km², 42 m | 14.8 km², 64 m | hypsometry of the **South Basin**; the sheet gives the whole lake (North Basin 64 m) |
 | Allequash Lake | 0.58 km², 7 m | 1.64 km², 8 m | hypsometry of one basin only? |
 | Langtjern | 0.06 km², 9 m | 0.23 km², 12 m | hypsometry of part of the lake? |

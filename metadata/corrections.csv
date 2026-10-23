@@ -156,6 +156,7 @@ Toolik,"(daily, flag only)",QC flag 'outlier' set (value kept),1,
 Trout,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),2450,"111 days; at common depths the sources differ by median 0.26, max 15.20 C"
 Trout,"(daily, flag only)",QC flag 'unstable' set (value kept),770,
 Trout,"(daily, flag only)",QC flag 'outlier' set (value kept),376,
+Trout,Trout_hypsometry.csv,"hypsometry: areas ten times too large (decimal shift: 160,790,000 m2 at the surface vs 16,079,000 m2 = 1,607.9 ha, NTL-LTER); all areas divided by 10",34,
 TroutBog,TroutBog/TroutBog_temp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2,min -1.10 C
 TroutBog,TroutBog/TroutBog_temp_subdaily_2004.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),446,min -3.20 C
 TroutBog,TroutBog/TroutBog_temp_subdaily_2005.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),2342,min -5.65 C

@@ -464,6 +464,7 @@ Generated from `metadata/corrections.csv` (one row per source file and rule). Ru
 | (daily merge) | day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean) | 2,450 | 111 days; at common depths the sources differ by median 0.26, max 15.20 C |
 | (daily, flag only) | QC flag 'unstable' set (value kept) | 770 |  |
 | (daily, flag only) | QC flag 'outlier' set (value kept) | 376 |  |
+| Trout_hypsometry.csv | hypsometry: areas ten times too large (decimal shift: 160,790,000 m2 at the surface vs 16,079,000 m2 = 1,607.9 ha, NTL-LTER); all areas divided by 10 | 34 |  |
 | (check) | observations reach 35 m, hypsometry 33 m | | not corrected; see ISSUES.md |
 
 ## TroutBog
