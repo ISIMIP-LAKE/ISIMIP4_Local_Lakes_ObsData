@@ -377,6 +377,8 @@ def main(a):
             "subdaily_years": nsub_years, "hypsometry_levels": len(h), "hypsometry_depth_max": h.z.max(),
             "hypsometry_area_surface_m2": h.a.iloc[0], "hypsometry_source": hsrc,
             "temp_sources": "; ".join(sorted(set(dd.source))), "coord_note": coord_note,
+            "data_sharing": "yes (coordination sheet)" if public else
+                            "yes (confirmed by the ISIMIP lake sector coordination, 2026-10-23; not yet in the sheet)",
             "qc_unstable": int(dd.qc.str.contains("unstable").sum()), "qc_outlier": int(dd.qc.str.contains("outlier").sum()),
             "note": ""})
         print(f"{lake:20s} {site:20s} {dd.day.min().date()}..{dd.day.max().date()} days={dd.day.nunique():6d} "

@@ -1,6 +1,6 @@
 # ISIMIP4 Local Lakes: observed water temperature and bathymetry
 
-Observed **water-temperature profiles** and **hypsometry** (depth vs area) of the **76 local lakes** of the
+Observed **water-temperature profiles** and **hypsometry** (depth vs area) of the **77 local lakes** of the
 ISIMIP4 lake sector (`lakes_local`), for calibrating and evaluating lake models. This is the successor of the
 ISIMIP3 database [icra/ISIMIP_Local_Lakes](https://github.com/icra/ISIMIP_Local_Lakes): the same lakes plus
 the lakes and data contributed for ISIMIP4, in one consistent format, with every error found in the ISIMIP3
@@ -10,8 +10,8 @@ files corrected, every correction documented, and per-lake figures and metadata.
 
 | | |
 |---|---|
-| Lakes | 76 (73 ISIMIP3 lakes, minus the duplicate "Zurich" folder, plus Edward, Inre Harrsjön, Mellersta Harrsjön, Villasjön; Grossglienickersee pending, see below) |
-| Water temperature | 2.1 million daily values on 110,671 lake-days, 1902-2025; 27.7 million sub-daily records for 28 lakes |
+| Lakes | 77 (the 73 ISIMIP3 lake folders, minus "Zurich", which held Lower Lake Zurich data, plus Lake Edward, Groß Glienicker See, Inre Harrsjön, Mellersta Harrsjön and Villasjön) |
+| Water temperature | 2.1 million daily values on 112,182 lake-days, 1902-2025; 28.0 million sub-daily records for 29 lakes |
 | Hypsometry | every lake |
 | Identifiers | ISIMIP4 protocol lake-site identifiers (`lake_site`), as used in ISIMIP output file names |
 | Coordination | ISIMIP lake sector, https://www.isimip.org |
@@ -21,7 +21,7 @@ files corrected, every correction documented, and per-lake figures and metadata.
 - **One format for every lake**: the same file names and columns everywhere (in ISIMIP3, 10 lakes had files
   named differently from the rest, 9 had different column headers, and one header lacked a column).
 - **A daily file for every lake**: 19 lakes had only sub-daily files; their daily means are now included.
-- **ISIMIP4 data added**: new lakes (Lake Edward; Inre Harrsjön, Mellersta Harrsjön and Villasjön in Sweden) and
+- **ISIMIP4 data added**: new lakes (Lake Edward; Groß Glienicker See; Inre Harrsjön, Mellersta Harrsjön and Villasjön in Sweden) and
   longer records for Erken (to 2025), Feeagh (to 2024), Harp, Lower Lake Zurich (to 2022), Sammamish and
   Washington (to 2023) and Vendyurskoe (to 2022).
 - **Errors corrected**, among them: an inverted hypsometry (Taihu); Rappbode reservoir profiles filed under the
@@ -62,7 +62,7 @@ providers and references to cite are in [docs/PROVIDERS.md](docs/PROVIDERS.md).
 
 ```
 LocalLakes/<Folder>/<site>_watertemp_daily.csv
-LocalLakes/<Folder>/<site>_watertemp_subdaily_<yyyy>.csv.gz     (28 lakes)
+LocalLakes/<Folder>/<site>_watertemp_subdaily_<yyyy>.csv.gz     (29 lakes)
 LocalLakes/<Folder>/<site>_hypsometry.csv
 metadata/lakes.csv            one row per lake
 metadata/source_files.csv     every source file used, with its SHA-256 checksum, rows read and used
@@ -121,7 +121,7 @@ Bosumtwi corrected, `coord_note`); from the coordination sheet: `elevation_m`, `
 `institute`, `reference`; computed from the files: `temp_first`, `temp_last`, `temp_days`, `temp_values_daily`,
 `temp_depths`, `temp_depth_min`, `temp_depth_max`, `subdaily_years`, `hypsometry_levels`,
 `hypsometry_depth_max`, `hypsometry_area_surface_m2`, `hypsometry_source`, `temp_sources`, `qc_unstable`,
-`qc_outlier`; `included` and `note` for lakes not (yet) published.
+`qc_outlier`, `data_sharing` (where the permission to publish is recorded).
 
 ## How the database is built
 
@@ -139,17 +139,15 @@ Sources: the ISIMIP3 database (commit `1868644`), the ISIMIP4 contributions coll
 protocol ([isimip-protocol-4](https://github.com/ISI-MIP/isimip-protocol-4), `lake_site` definitions).
 Python 3 with numpy, pandas, PyYAML, matplotlib and cartopy.
 
-## Lakes not included (yet)
+## Restricted data
 
-- **Grossglienickersee** (Germany): the data-sharing question in the coordination sheet is unanswered.
-- **Bosumtwi**: the ISIMIP4 contribution is restricted to the ISIMIP lake-sector modellers; the lake is included
-  with its public ISIMIP3 data.
+Lake Bosumtwi's ISIMIP4 contribution (monthly profiles 2018-2020 and a hypsometry) is restricted to the ISIMIP
+lake-sector modellers and is not published here; the lake is included with its public ISIMIP3 data.
 
 ## Using the data
 
-Please cite the data providers' references ([docs/PROVIDERS.md](docs/PROVIDERS.md)) and this repository when you
-use the data. Licence: see [LICENSE](LICENSE).
+Please cite the data providers' references ([docs/PROVIDERS.md](docs/PROVIDERS.md)) and this repository
+([CITATION.cff](CITATION.cff)) when you use the data.
 
-Contact: ISIMIP lake sector coordination, Daniel Mercado-Bettín (Spanish National Research Council, CSIC,
-Centre for Advanced Studies of Blanes, CEAB), daniel.mercado@csic.es. Corrections and new data are welcome as
-issues or pull requests.
+Questions, corrections and new data: open an issue or a pull request in this repository, or contact the ISIMIP
+lake sector (https://www.isimip.org).

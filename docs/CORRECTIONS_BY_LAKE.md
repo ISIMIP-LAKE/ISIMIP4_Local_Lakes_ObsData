@@ -179,6 +179,13 @@ Generated from `metadata/corrections.csv` (one row per source file and rule). Ru
 | (daily, flag only) | QC flag 'outlier' set (value kept) | 1 |  |
 | (check) | observations reach 20.8 m, hypsometry 19 m | | not corrected; see ISSUES.md |
 
+## Grossglienickersee
+
+| File | Rule | n | Detail |
+|---|---|---|---|
+| grossglienickersee_watertemp_subdaily.csv | missing temperature removed (empty, NA, NaN) | 16,223 |  |
+| (daily, flag only) | QC flag 'unstable' set (value kept) | 1 |  |
+
 ## Harp
 
 | File | Rule | n | Detail |

@@ -53,10 +53,8 @@ in the others the hypsometry may not reach the deepest point.
   `DE-Arendsee` / `DE-Are`, Bosumtwi `GH-Bosumtwi` / `GH-Bos`); the code most used in the source files is kept.
 - **Villasjön** is spelled "Vallasjön" in one delivery e-mail; the data files and this database use Villasjön.
 
-## Lakes not included
+## Data not included
 
-- **Grossglienickersee**: the coordination sheet has no answer to "Data can go public"; the data
-  (temperature 2017-2021, hypsometry) will be added once the provider agrees.
 - **Bosumtwi** ISIMIP4 delivery (monthly temperature and hypsometry): marked as restricted to ISIMIP3 lake
   sector modellers; only the public ISIMIP3 data of Bosumtwi are included.
 - **Arendsee, Scharmützelsee**: the ISIMIP4 delivery has oxygen files only (no new temperature); their ISIMIP3

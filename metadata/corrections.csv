@@ -211,6 +211,8 @@ Vendyurskoe,vendyurskoe_watertemp_daily.csv,several values at the same time and 
 Vendyurskoe,Vendyurskoe/Vendyurskoe_temp_daily.csv,several values at the same time and depth: averaged,2,1 groups
 Vendyurskoe,(daily merge),day also in a higher-priority source: lower-priority values of that day not used (ISIMIP4 > ISIMIP3 daily > ISIMIP3 sub-daily mean),25721,"2621 days; at common depths the sources differ by median 0.00, max 0.00 C"
 Vendyurskoe,vendyurskoe_hypsometry.csv,ISIMIP4 hypsometry used; ISIMIP3 file identical,1,
+Grossglienickersee,grossglienickersee_watertemp_subdaily.csv,"missing temperature removed (empty, NA, NaN)",16223,
+Grossglienickersee,"(daily, flag only)",QC flag 'unstable' set (value kept),1,
 InreHarrsjon,inreharrsjon_watertemp_daily.csv,temperature below -0.5 C removed (logger frozen in ice / not liquid water),1909,min -11.76 C
 InreHarrsjon,"(daily, flag only)",QC flag 'unstable' set (value kept),69,
 InreHarrsjon,"(daily, flag only)",QC flag 'outlier' set (value kept),18,

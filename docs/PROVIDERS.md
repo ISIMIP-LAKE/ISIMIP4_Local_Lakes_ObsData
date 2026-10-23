@@ -30,6 +30,7 @@ Institutes and references as given in the ISIMIP4 local-lakes coordination sheet
 | Fish Lake | open data https://lter.limnology.wisc.edu/about/lakes | Magee, M. R., McIntyre, P. B., & Wu, C. H. (2018). Modeling oxythermal stress for cool-water fishes in lakes using a cumulative dosage approach. Canadian Journal of Fisheries and Aquatic Sciences, 75, 1303–1312. https://doi.org/10.1139/cjfas-2017-0260 |
 | Great Pond | 7 Lakes Alliance/Colby College |  |
 | Green Lake | U.S. Geological  Survey |  |
+| Groß Glienicker See | IGB Berlin |  |
 | Harp Lake | Dorset Environmental Science Centre | H. Yao, N. Samal, K. Joehnk, X. Fang, L. Bruce, D. Pierson, J. Rusak and A. James (2014): Comparing ice and temperature simulations by four dynamic lake models in Harp Lake: past performance and future predictions. Hydrological Processes, Vol. 28, 4587-4601 |
 | Hassel Predam | Helmholtz-Centre for Environmental Research, Department Lake Research | Kong, X., Ghaffar, S., Determann M., Friese K., Jomaa, S., Mi, C., Rinke, K., Rode, M. (2022): Reservoir water quality deterioration due to deforestation emphasizes the indirect effects of global change. Water Research, 221, 118721. |
 | Lake Hulun | Nanjing Institute of Geography and Limnology, Chinese Academy of Science | Chuai, X., Chen, X., Yang, L., Zeng, J., Miao, A., & Zhao, H. (2012). Effects of climatic changes and anthropogenic activities on lake eutrophication in different ecoregions. International Journal of Environmental Science and Technology, 9(3), 503-514. |

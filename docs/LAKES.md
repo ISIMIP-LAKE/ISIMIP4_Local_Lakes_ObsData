@@ -1,6 +1,6 @@
 # Lakes
 
-76 lakes. Folder `LocalLakes/<Folder>/`, files `<site>_...`. Depth: maximum depth from the coordination sheet; record: first and last day with water temperature; days: days with at least one value. Sources: `I3` = ISIMIP3 database (daily file `d`, sub-daily files `s`), `I4` = ISIMIP4 delivery.
+77 lakes. Folder `LocalLakes/<Folder>/`, files `<site>_...`. Depth: maximum depth from the coordination sheet; record: first and last day with water temperature; days: days with at least one value. Sources: `I3` = ISIMIP3 database (daily file `d`, sub-daily files `s`), `I4` = ISIMIP4 delivery.
 
 | Folder | Site (protocol) | SITE_ID | Name | Country | Type | Lat | Lon | Max depth (m) | Record | Days | Depths | Sub-daily years | Hypsometry levels | Temperature sources | Figure |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -30,6 +30,7 @@
 | Fish | `fish` | US-Fis | Fish Lake | USA | lake | 43.29 | -89.65 | 18.9 | 1996-02-08 – 2014-11-04 | 276 | 68 | 0 | 20 | I3 d | [png](../figures/lakes/fish.png) |
 | GreatPond | `great` | US-GrP | Great Pond | USA | lake | 44.53 | -69.89 | 21.0 | 2014-05-21 – 2016-10-04 | 496 | 10 | 3 | 22 | I3 s | [png](../figures/lakes/great.png) |
 | Green | `green` | US_GRN | Green Lake | USA | lake | 43.81 | -89.00 | 72.0 | 2004-05-18 – 2018-07-10 | 89 | 79 | 0 | 74 | I3 d | [png](../figures/lakes/green.png) |
+| Grossglienickersee | `grossglienickersee` | DE-Ggs | Groß Glienicker See | Germany | lake | 52.47 | 13.11 | 11.2 | 2017-04-05 – 2021-05-28 | 1,511 | 14 | 5 | 13 | I4 s | [png](../figures/lakes/grossglienickersee.png) |
 | Harp | `harp` | CA-Har | Harp Lake | Canada | lake | 45.38 | -79.13 | 37.5 | 2004-04-28 – 2015-11-03 | 1,698 | 104 | 3 | 20 | I3 d, I3 s, I4 | [png](../figures/lakes/harp.png) |
 | Hassel | `hassel` | DE-Hassel | Hassel Predam | Germany | reservoir | 51.71 | 10.83 | 14.0 | 2010-08-25 – 2015-12-08 | 77 | 4,430 | 0 | 15 | I3 d | [png](../figures/lakes/hassel.png) |
 | Hulun | `hulun` | CN-Hulun | Lake Hulun | China | lake | 49.00 | 117.39 | 8.0 | 2003-05-01 – 2019-01-08 | 159 | 1 | 0 | 9 | I3 d | [png](../figures/lakes/hulun.png) |
@@ -80,7 +81,3 @@
 | Windermere | `windermere` | UK-Win | Windermere | United Kingdom | lake | 54.31 | -2.95 | 64.0 | 2008-01-01 – 2009-12-31 | 731 | 12 | 2 | 9 | I3 s | [png](../figures/lakes/windermere.png) |
 | Wingra | `wingra` | US-Win | Lake Wingra | USA | lake | 43.05 | -89.43 | 6.7 | 1996-02-13 – 2014-11-03 | 283 | 17 | 0 | 9 | I3 d | [png](../figures/lakes/wingra.png) |
 | Zlutice | `zlutice` | CZ-Zlu | Zlutice Reservoir | Czechia | reservoir | 50.09 | 13.11 | 24.0 | 2003-01-01 – 2022-07-19 | 7,140 | 88 | 0 | 249 | I3 d | [png](../figures/lakes/zlutice.png) |
-
-Not included:
-
-- Grossglienickersee (`grossglienickersee`): withheld: data-sharing permission not given in the coordination sheet (nan)

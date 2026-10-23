@@ -58,7 +58,7 @@ pattern can also be real. Most lakes have none or a few; check them before using
 
 | Flag | Meaning | Values |
 |---|---|---|
-| `unstable` | lighter than the water above it on the same day by more than 0.1 kg m⁻³ (fresh-water density, Chen & Millero 1977); the top metre is not used as a reference (night-time surface cooling). Not applied to Lake Kivu, where salt keeps warmer deep water stable. Such an inversion cannot last a day: a sensor out of position (e.g. Trout Lake buoy, 11 August 2011: 22 °C at 18-30 m while the manual profile reads 6.6-6.9 °C), a faulty sensor (Lake Annie, 6 m) or, in Falling Creek and Sammamish, several casts per day at slightly different depths | 28,231 (1.3 %) |
+| `unstable` | lighter than the water above it on the same day by more than 0.1 kg m⁻³ (fresh-water density, Chen & Millero 1977); the top metre is not used as a reference (night-time surface cooling). Not applied to Lake Kivu, where salt keeps warmer deep water stable. Such an inversion cannot last a day: a sensor out of position (e.g. Trout Lake buoy, 11 August 2011: 22 °C at 18-30 m while the manual profile reads 6.6-6.9 °C), a faulty sensor (Lake Annie, 6 m) or, in Falling Creek and Sammamish, several casts per day at slightly different depths | 28,232 (1.3 %) |
 | `outlier` | more than 5 °C and more than 6 robust standard deviations (1.4826 × median absolute deviation) from the lake's median for that calendar month and depth band (1 m bands to 20 m, 5 m below; bands with at least 10 values) | 1,731 (0.08 %) |
 
 Both rules use the daily values only; the sub-daily files carry no flag.
